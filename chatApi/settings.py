@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'user_control.apps.UserControlConfig',
 ]
 
+AUTH_USER_MODEL= 'user_control.CustomUser'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
